@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Word Search</title>
+		<meta property="og:title" content="Word Search"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:site_name" content="Word Search"/>
+		<meta name="theme-color" content="#000000"/>
+		<meta name="mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+		
+		<style>
+			html,body{background-color:pink;height:100%;padding:0;margin:0;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
+			#content{position:fixed;height:100%;width:100%;margin:0;padding:0;border:none;display:none}
+
+			@media only screen and (orientation:portrait)
+				{
+				#content{position:fixed;transform:rotate(-90deg);transform-origin:left top;width:100vh;overflow-x:hidden;top:100%;left:0}
+				}
+		</style>
+	</head>
+	<body>
+		<iframe id="content" src="about:blank"></iframe>
+		
+		 <script src="script.js"></script>
+	</body>
+</html>
